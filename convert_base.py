@@ -7,7 +7,6 @@ def convert_base(n: str, base_n: int, base_res: int) -> str:
         num = int(n, base_n)
         if num == 0:
             return "0"
-
         res = ""
         while num:
             res += letters[num % base_res]

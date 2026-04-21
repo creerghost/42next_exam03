@@ -21,4 +21,4 @@ def bracket_validator(arg: str) -> bool:
 
 
 if __name__ == "__main__":
-    print(bracket_validator("([)]"))
+    print(bracket_validator('([aa][]())'))
